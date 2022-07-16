@@ -42,6 +42,7 @@
         <Label Name="Label_8" Content="9" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="4" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Grid.Column="1"/>
         <Label Name="Label_top9"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="2"/>
         <Label Name="Label_9" Content="10" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="50" Grid.Row="4" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.566,0.482" Margin="263,0,0,0" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Label Content="Search" MouseDoubleClick="Label_MouseDoubleClick_1" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="263,22,0,0" VerticalAlignment="Top" Width="128" FontSize="24" Grid.ColumnSpan="2"/>
 
 
 

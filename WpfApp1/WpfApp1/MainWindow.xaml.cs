@@ -70,12 +70,6 @@ namespace WpfApp1
             public DateTime last_updated { get; set; }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-            Coingecko();
-            //HelloTextBox.Text = "Hello WPF .NET CORE";
-        }
 
 
 
@@ -101,10 +95,13 @@ namespace WpfApp1
 
 
 
+        private void Label_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
 
-
-
-
+            var Deatails = new Details(); //create your new form.
+            Deatails.Show(); //show the new form.
+            this.Close(); //only if you want to close the current form.
+        }
     }
 
 

@@ -12,9 +12,15 @@
     <Compile Update="Details.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Exchange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Details.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exchange.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
