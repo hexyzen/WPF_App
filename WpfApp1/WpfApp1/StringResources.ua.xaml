@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+
+
+    <System:String x:Key="StrSearch">Пошук</System:String>
+    <System:String x:Key="StrConvert">Розрахувати</System:String>
+    <System:String x:Key="StrMarketCap">Ринкова капіталізація</System:String>
+    <System:String x:Key="StrTradingvol">Обсяг торгів (24 год.)</System:String>
+    <System:String x:Key="StrValuation">Повна оцінка</System:String>
+    <System:String x:Key="StrCircsupl">Кількість в обігу</System:String>
+    <System:String x:Key="StrTotalsupl">Загальний обсяг</System:String>
+    <System:String x:Key="StrMaxsupl">Макс. обсяг</System:String>
+    <System:String x:Key="StrInfo">Інформація</System:String>
+    <System:String x:Key="StrWebsite">Вебсайт</System:String>
+    <System:String x:Key="StrMarket">Ринок</System:String>
+    <System:String x:Key="StrForum">Форум</System:String>
+
+</ResourceDictionary>

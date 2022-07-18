@@ -5,46 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MyProgramm" Height="600" Width="800" Background="White">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="266"/>
-            <ColumnDefinition Width="266"/>
-            <ColumnDefinition Width="266"/>
+        ResizeMode="NoResize"
+        WindowStyle="ToolWindow"
+        Title="MyProgramm" SnapsToDevicePixels="True" Height="450" Width="800" Background="AliceBlue">
+    <Border Background="#272537" CornerRadius="20">
+        <Grid Background="Gray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition />
 
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="120"/>
-            <RowDefinition Height="120"/>
-        </Grid.RowDefinitions>
-
-        <Label Name="Label_top0" HorizontalAlignment="Right" VerticalAlignment="Top" Height="64" Width="162" Grid.Column="1" FontSize="36" Margin="0,22,52,0" Grid.Row="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface">
-        </Label>
-        <Label Name="Label_0" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="69" Width="47" Grid.Row="1" Grid.Column="1" FontSize="48" FontWeight="Bold" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="0,17,0,0" FontStretch="Normal" FontStyle="Normal" Background="{x:Null}" Foreground="#FFF9EE07"/>
-        <Label Name="Label_top1"  HorizontalAlignment="Left" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Margin="48,0,0,0" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface"/>
-        <Label Name="Label_1" Content="2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="2" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="10,0,0,0" Foreground="#FFA2A2A4" FontStyle="Italic"/>
-        <Label Name="Label_top2"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="1"/>
-        <Label Name="Label_2" Content="3" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="2" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Grid.Column="1" Foreground="#FFF98902"/>
-        <Label Name="Label_top3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="2"/>
-        <Label Name="Label_3" Content="4" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="2" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="9,0,0,0" Grid.Column="2"/>
-        <Label Name="Label_top4"  HorizontalAlignment="Left" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Margin="48,0,0,0"/>
-        <Label Name="Label_4" Content="5" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="3" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="10,0,0,0"/>
-        <Label Name="Label_top5"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="1"/>
-        <Label Name="Label_5" Content="6" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="3" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Grid.Column="1"/>
-        <Label Name="Label_top6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="2"/>
-        <Label Name="Label_6" Content="7" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="3" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="9,0,0,0" Grid.Column="2"/>
-        <Label Name="Label_top7"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="64" Width="162" FontSize="36" Grid.Row="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Margin="48,22,0,0"/>
-        <Label Name="Label_7" Content="8" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="4" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Margin="10,0,0,0"/>
-        <Label Name="Label_top8"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="1"/>
-        <Label Name="Label_8" Content="9" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="38" Grid.Row="4" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.539,0.568" Grid.Column="1"/>
-        <Label Name="Label_top9"  HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="162" FontSize="36" Grid.Row="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Global User Interface" Grid.Column="2"/>
-        <Label Name="Label_9" Content="10" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="50" Grid.Row="4" FontSize="36" FontWeight="Normal" FontFamily="Global User Interface" Cursor="No" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.566,0.482" Margin="263,0,0,0" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Label Content="Search" MouseDoubleClick="Label_MouseDoubleClick_1" Grid.Column="1" HorizontalAlignment="Left" Height="38" Margin="263,22,0,0" VerticalAlignment="Top" Width="128" FontSize="24" Grid.ColumnSpan="2"/>
+            </Grid.ColumnDefinitions>
 
 
 
-    </Grid>
+            <Path Stretch="Uniform" Margin="0,10,0,0" VerticalAlignment="Top" Fill="#252525" Height="25" Width="25" Data="M15.354,8.646l-0.707 0.708 L7.982,2.71,1.354,9.353 0.646 ,8.647l6.981-7h0.707ZM14,8.709V14.5l-0.5 0.5 h-4L9,14.5V11H7v3.5l-0.5 0.5 h-4L2,14.5V8.706l1-1H3V14H6V10.5l0.5-0.5h3l0.5 0.5 V14h3V7.712Z"/>
+
+            <ListBox Grid.Column="0" SelectionMode="Single" SelectionChanged="sidebar_SelectionChanged"  x:Name="sidebar" Margin="0,47,0,0"  BorderThickness="0" Background="#252525">
+
+
+                <local:NavButton Navlink="/Pages/Page1.xaml" Margin="3" Padding="6" Icon="M -56.625 24.75 C -58.28185 24.75 -59.625 26.09315 -59.625 27.75 L -59.625 39.75 C -59.625 41.4069 -58.28185 42.75 -56.625 42.75 L -44.625 42.75 C -42.9681 42.75 -41.625 41.4069 -41.625 39.75 L -41.625 27.75 C -41.625 26.09315 -42.9681 24.75 -44.625 24.75 L -56.625 24.75 z M -56.625 26.75 L -44.625 26.75 C -44.0727 26.75 -43.625 27.19772 -43.625 27.75 L -43.625 39.75 C -43.625 40.3023 -44.0727 40.75 -44.625 40.75 L -56.625 40.75 C -57.17728 40.75 -57.625 40.3023 -57.625 39.75 L -57.625 27.75 C -57.625 27.19772 -57.17728 26.75 -56.625 26.75 z M -54.625 28.75 C -55.17728 28.75 -55.625 29.19772 -55.625 29.75 C -55.625 30.30228 -55.17728 30.75 -54.625 30.75 L -46.625 30.75 C -46.0727 30.75 -45.625 30.30228 -45.625 29.75 C -45.625 29.19772 -46.0727 28.75 -46.625 28.75 L -54.625 28.75 z M -54.625 32.75 C -55.17728 32.75 -55.625 33.1977 -55.625 33.75 C -55.625 34.3023 -55.17728 34.75 -54.625 34.75 C -54.07272 34.75 -53.625 34.3023 -53.625 33.75 C -53.625 33.1977 -54.07272 32.75 -54.625 32.75 z M -50.625 32.75 C -51.1773 32.75 -51.625 33.1977 -51.625 33.75 C -51.625 34.3023 -51.1773 34.75 -50.625 34.75 C -50.0727 34.75 -49.625 34.3023 -49.625 33.75 C -49.625 33.1977 -50.0727 32.75 -50.625 32.75 z M -46.625 32.75 C -47.1773 32.75 -47.625 33.1977 -47.625 33.75 C -47.625 34.3023 -47.1773 34.75 -46.625 34.75 C -46.0727 34.75 -45.625 34.3023 -45.625 33.75 C -45.625 33.1977 -46.0727 32.75 -46.625 32.75 z M -54.625 36.75 C -55.17728 36.75 -55.625 37.1977 -55.625 37.75 C -55.625 38.3023 -55.17728 38.75 -54.625 38.75 C -54.07272 38.75 -53.625 38.3023 -53.625 37.75 C -53.625 37.1977 -54.07272 36.75 -54.625 36.75 z M -50.625 36.75 C -51.1773 36.75 -51.625 37.1977 -51.625 37.75 C -51.625 38.3023 -51.1773 38.75 -50.625 38.75 C -50.0727 38.75 -49.625 38.3023 -49.625 37.75 C -49.625 37.1977 -50.0727 36.75 -50.625 36.75 z M -46.625 36.75 C -47.1773 36.75 -47.625 37.1977 -47.625 37.75 C -47.625 38.3023 -47.1773 38.75 -46.625 38.75 C -46.0727 38.75 -45.625 38.3023 -45.625 37.75 C -45.625 37.1977 -46.0727 36.75 -46.625 36.75 z  " Height="38" Width="36"/>
+                <local:NavButton Navlink="/Pages/Page2.xaml" Margin="3" Padding="6" Icon="M4.5,7.5h-3v-3h3Z M4.5,8h-3L1,7.5v-3L1.5,4h3l0.5 0.5 v3ZM2,7H4V5H2Z M11,2H1V1H11Zm0,2H6V5h5Zm0,3H6V8h5Zm0,3H1v1H11Zm0,3H1v1H11Z M16,3H12V1h4Zm0,3H12V4h4Zm0,3H12V7h4Z" Height="36" Width="36"/>
+
+
+
+            </ListBox>
+
+            <Frame x:Name="navframe" NavigationUIVisibility="Hidden" Background="#252525" Grid.Column="1"/>
+
+
+        </Grid>
+    </Border>
 </Window>

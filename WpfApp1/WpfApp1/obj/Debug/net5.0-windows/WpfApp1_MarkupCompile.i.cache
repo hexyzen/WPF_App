@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Roman Kostiuk\source\repos\WpfApp1\WpfApp1\App.xaml
-31218364996
+6-1501913701
 
-7-611144051
+8742817146
 1952145035490
-Details.xaml;Exchange.xaml;MainWindow.xaml;
+MainWindow.xaml;Pages\Page1.xaml;Pages\Page2.xaml;StringResources.en.xaml;StringResources.ua.xaml;Themes\Generic.xaml;
 
-True
+False
 

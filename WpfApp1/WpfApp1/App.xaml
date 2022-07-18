@@ -6,6 +6,17 @@
     <!-- MainWindow-->
     
     <Application.Resources>
-         
+
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+      Source="/WpfApp1;component/StringResources.en.xaml"/>
+                <ResourceDictionary 
+      Source="/WpfApp1;component/StringResources.ua.xaml"/>
+                </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+
     </Application.Resources>
-</Application>
+  </Application>

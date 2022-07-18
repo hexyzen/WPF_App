@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+
+    <System:String x:Key="StrSearch">Search</System:String>
+    <System:String x:Key="StrConvert">Convert</System:String>
+    <System:String x:Key="StrRank">Rank #</System:String>
+    <System:String x:Key="StrMarketCap">Market Cap</System:String>
+    <System:String x:Key="StrTradingvol">24 Hour Trading Vol</System:String>
+    <System:String x:Key="StrValuation">Fully Diluted Valuation</System:String>
+    <System:String x:Key="StrCircsupl">Circulating Supply</System:String>
+    <System:String x:Key="StrTotalsupl">Total Supply</System:String>
+    <System:String x:Key="StrMaxsupl">Max Supply</System:String>
+    <System:String x:Key="StrInfo">Info</System:String>
+    <System:String x:Key="StrWebsite">Website</System:String>
+    <System:String x:Key="StrMarket">Market</System:String>
+    <System:String x:Key="StrForum">Forum</System:String>
+
+
+
+
+
+</ResourceDictionary>
